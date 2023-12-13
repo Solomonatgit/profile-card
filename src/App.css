@@ -4,7 +4,7 @@ html {
 
 body {
   overflow: hidden;
-  background: #bcdee7 ;
+  background: #bcdee7;
   background-size: cover;
   position: fixed;
   padding: 0px;
@@ -19,7 +19,7 @@ body:before {
   content: "";
   height: 0px;
   padding: 0px;
-  border: 130em solid #FFB300;
+  border: 130em solid #00f2fe;
   position: absolute;
   left: 50%;
   top: 100%;
@@ -67,6 +67,7 @@ body:before {
     width: 0px;
     height: 0px;
   }
+
   100% {
     width: 56px;
     height: 56px;
@@ -80,6 +81,7 @@ body:before {
     width: 0px;
     height: 0px;
   }
+
   100% {
     width: 56px;
     height: 56px;
@@ -94,6 +96,7 @@ body:before {
     height: 0px;
     padding: 0px;
   }
+
   100% {
     top: 50%;
     height: 100%;
@@ -107,6 +110,7 @@ body:before {
     height: 0px;
     padding: 0px;
   }
+
   100% {
     top: 50%;
     height: 100%;
@@ -118,6 +122,7 @@ body:before {
   0% {
     -webkit-border-radius: 50%;
   }
+
   100% {
     -webkit-border-radius: 0px;
   }
@@ -127,6 +132,7 @@ body:before {
   0% {
     -webkit-border-radius: 50%;
   }
+
   100% {
     border-radius: 0px;
   }
@@ -136,9 +142,11 @@ body:before {
   0% {
     top: 50%;
   }
+
   50% {
     top: 40%;
   }
+
   100% {
     top: 100%;
   }
@@ -148,9 +156,11 @@ body:before {
   0% {
     top: 50%;
   }
+
   50% {
     top: 40%;
   }
+
   100% {
     top: 100%;
   }
@@ -161,9 +171,11 @@ body:before {
     background: #FFB300;
     top: 100%;
   }
+
   50% {
     top: 40%;
   }
+
   100% {
     top: 50%;
     background: #E0E0E0;
@@ -175,9 +187,11 @@ body:before {
     background: #FFB300;
     top: 100%;
   }
+
   50% {
     top: 40%;
   }
+
   100% {
     top: 50%;
     background: #E0E0E0;
@@ -188,9 +202,11 @@ body:before {
   0% {
     background: #E0E0E0;
   }
+
   50% {
     -webkit-border-radius: 4px;
   }
+
   100% {
     width: 440px;
     height: 280px;
@@ -203,9 +219,11 @@ body:before {
   0% {
     background: #E0E0E0;
   }
+
   50% {
     border-radius: 4px;
   }
+
   100% {
     width: 440px;
     height: 280px;
@@ -219,6 +237,7 @@ body:before {
     margin-top: 50px;
     opacity: 0;
   }
+
   100% {
     opacity: 1;
     margin-top: -20px;
@@ -230,6 +249,7 @@ body:before {
     margin-top: 50px;
     opacity: 0;
   }
+
   100% {
     opacity: 1;
     margin-top: -20px;
@@ -240,6 +260,7 @@ body:before {
   0% {
     -webkit-transform: scale(0);
   }
+
   100% {
     -webkit-transform: scale(1);
   }
@@ -249,6 +270,7 @@ body:before {
   0% {
     transform: scale(0);
   }
+
   100% {
     transform: scale(1);
   }
@@ -258,10 +280,12 @@ body:before {
   0% {
     transform: scale3d(0, 0, 0);
   }
+
   50%,
   100% {
     -webkit-transform: scale3d(1, 1, 1);
   }
+
   100% {
     opacity: 0;
   }
@@ -271,10 +295,12 @@ body:before {
   0% {
     transform: scale3d(0, 0, 0);
   }
+
   50%,
   100% {
     transform: scale3d(1, 1, 1);
   }
+
   100% {
     opacity: 0;
   }
@@ -284,27 +310,32 @@ body:before {
   body {
     background-size: cover;
   }
+
   body:before {
     width: 0px;
   }
+
   @-webkit-keyframes puff {
     0% {
       top: 100%;
       width: 0px;
       padding-bottom: 0px;
     }
+
     100% {
       top: 50%;
       width: 100%;
       padding-bottom: 100%;
     }
   }
+
   @keyframes puff {
     0% {
       top: 100%;
       width: 0px;
       padding-bottom: 0px;
     }
+
     100% {
       top: 50%;
       width: 100%;
@@ -322,6 +353,7 @@ body:before {
     float: none;
     border-right: none;
   }
+
   .profile-card .profile-bio {
     width: auto;
     height: auto;
@@ -329,18 +361,22 @@ body:before {
     display: block;
     float: none;
   }
+
   .profile-social-links {
     width: 100%;
     display: block;
     float: none;
   }
+
   @-webkit-keyframes materia {
     0% {
       background: #E0E0E0;
     }
+
     50% {
       -webkit-border-radius: 4px;
     }
+
     100% {
       width: 280px;
       height: 440px;
@@ -348,15 +384,18 @@ body:before {
       -webkit-border-radius: 4px;
     }
   }
+
   @keyframes materia {
     0% {
       background: #E0E0E0;
     }
+
     50% {
       border-radius: 4px;
     }
+
     100% {
-      width: 450px;
+      width: 73dvh;
       height: 250px;
       background: transparent;
       border-radius: 4px;
@@ -371,82 +410,83 @@ body:before {
 
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
-html, body {
-background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
-font-family: Abel, Arial, Verdana, sans-serif;
+html,
+body {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  font-family: Abel, Arial, Verdana, sans-serif;
 }
 
 .center {
-position: absolute;
-top: 50%;
-left: 50%;
--webkit-transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
 }
 
 .card {
-width: 450px;
-height: 250px;
-background-color: #fff;
-background: linear-gradient(#f8f8f8, #fff);
-box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
-border-radius: 6px;
-overflow: hidden;
-position: relative;
-margin: 1.5rem;
+  width: 450px;
+  height: 250px;
+  background-color: #fff;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin: 1.5rem;
 }
 
 .card h1 {
-text-align: center;
+  text-align: center;
 }
 
 .card .additional {
-position: absolute;
-width: 150px;
-height: 100%;
-background: linear-gradient(#dE685E, #EE786E);
-transition: width 0.4s;
-overflow: hidden;
-z-index: 2;
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(#dE685E, #EE786E);
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
 }
 
 .card.green .additional {
-background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }
 
 
 .card:hover .additional {
-width: 100%;
-border-radius: 0 5px 5px 0;
+  width: 100%;
+  border-radius: 0 5px 5px 0;
 }
 
 .card .additional .user-card {
-width: 150px;
-height: 100%;
-position: relative;
-float: left;
+  width: 150px;
+  height: 100%;
+  position: relative;
+  float: left;
 }
 
 .card .additional .user-card::after {
-content: "";
-display: block;
-position: absolute;
-top: 10%;
-right: -2px;
-height: 80%;
-border-left: 2px solid rgba(0,0,0,0.025);
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: -2px;
+  height: 80%;
+  border-left: 2px solid rgba(0, 0, 0, 0.025);
 }
 
 .card .additional .user-card .level,
 .card .additional .user-card .points {
-top: 15%;
-color: #fff;
-text-transform: uppercase;
-font-size: 0.75em;
-font-weight: bold;
-background: rgba(0,0,0,0.15);
-padding: 0.125rem 0.75rem;
-border-radius: 100px;
-white-space: nowrap;
+  top: 15%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 0.125rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
 }
 
 .head,
@@ -456,127 +496,126 @@ white-space: nowrap;
   text-transform: uppercase;
   font-size: 1.2em;
   font-weight: bold;
-  background: rgba(0,0,0,0.15);
+  background: rgba(0, 0, 0, 0.15);
   padding: -0.1rem 1rem;
   border-radius: 0px;
   white-space: nowrap;
- 
-  }
+
+}
+
 .head p {
-  color: black;
+  color: #fff;
   margin-left: 2.2cm;
-  
+
 }
 
 .jhead p {
-  color: black;
+  color: #fff;
   margin-left: 2.8cm;
-  
-} 
+
+}
 
 .card .additional .user-card .points {
-top: 85%;
+  top: 85%;
 }
 
 .card .additional .user-card svg {
-top: 50%;
+  top: 50%;
 }
 
 .card .additional .more-info {
-width: 300px;
-float: left;
-position: absolute;
-left: 150px;
-height: 100%;
+  width: 300px;
+  float: left;
+  position: absolute;
+  left: 150px;
+  height: 100%;
 }
 
 .card .additional .more-info h1 {
-color: #fff;
-margin-bottom: 0;
+  color: #fff;
+  margin-bottom: 0;
 }
 
 .card.green .additional .more-info h1 {
-color: #224C36;
+  color: #224C36;
 }
 
 .card .additional .coords {
-margin: 0 1rem;
-color: #fff;
-font-size: 1rem;
+  margin: 0 1rem;
+  color: #fff;
+  font-size: 1rem;
 }
 
 .card.green .additional .coords {
-color: #325C46;
+  color: #325C46;
 }
 
-.card .additional .coords span + span {
-margin-right: 0.2cm;
-padding-left: 0.5cm;
+.card .additional .coords span+span {
+  margin-right: 0.2cm;
+  padding-left: 0.5cm;
 }
 
 .card .additional .stats {
-font-size: 2rem;
-display: flex;
-position: absolute;
-bottom: 1rem;
-left: 1rem;
-right: 1rem;
-top: auto;
-color: #fff;
+  font-size: 2rem;
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  top: auto;
+  color: #fff;
 }
 
 .card.green .additional .stats {
-color: #325C46;
+  color: #325C46;
 }
 
-.card .additional .stats > div {
-flex: 1;
-text-align: center;
+.card .additional .stats>div {
+  flex: 1;
+  text-align: center;
 }
 
 .card .additional .stats i {
-display: block;
+  display: block;
 }
 
 .card .additional .stats div.title {
-font-size: 0.75rem;
-font-weight: bold;
-text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .card .additional .stats div.value {
-font-size: 1.5rem;
-font-weight: bold;
-line-height: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5rem;
 }
 
 .card .additional .stats div.value.infinity {
-font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .card .general {
-width: 300px;
-height: 100%;
-position: absolute;
-top: 0;
-right: 0;
-z-index: 1;
-box-sizing: border-box;
-padding: 1rem;
-padding-top: 0;
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 1rem;
+  padding-top: 0;
 }
 
 .card .general p {
-font-size: 13px;
-font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .card .general .more {
-position: absolute;
-bottom: 1rem;
-right: 1rem;
-font-size: 0.9em;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.9em;
 }
-
-
